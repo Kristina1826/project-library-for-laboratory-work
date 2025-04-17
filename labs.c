@@ -55,7 +55,6 @@ void lab2()
                 i=i+1;
             }
             printf("Сумма первых %d элементов ряда: %f\n", N, result);
-        }
     }
 
 void lab3() 
