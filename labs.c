@@ -3,11 +3,11 @@
 int factorial(int n);
 void lab1() 
     {
-        printf("Работа №1.Линейные алгоритмы");
+        printf("Работа №1.Линейные алгоритмы \n ");
         float L,v,t;
-        printf ("Введите значение переменной L: ");
+        printf ("Введите значение переменной L: \n ");
         scanf("%f",&L);
-        printf ("Введите значение переменной v: ");
+        printf ("Введите значение переменной v: \n ");
         scanf("%f",&v);
         t=(2*L)/v;
         printf("Ответ: = %f\n",t);
@@ -99,7 +99,6 @@ void lab4()
     
         if (dlinastroki == 0) {
             printf("Строка пустая\n");
-            return 0;
         }
         int schet_slov = 0;
         int last_word_start = -1, last_word_end = -1;
@@ -126,7 +125,8 @@ void lab4()
             }
         }
     
-        if (schet_slov < 2) {
+        if (schet_slov < 2) 
+        {
             printf("Недостаточно слов в строке\n");
             return;
         }
@@ -142,14 +142,6 @@ void lab4()
         printf("Строка после удаления предпоследнего слова: %s\n", x);
         return;
     }
-
-void lab4add()
-    {
-        printf("Дополнительное задание к работе №4\n");
-        printf("");
-        // Реализация
-    }
-
 void lab5() 
     {
         printf("Работа №5.Одномерные массивы \n");
@@ -184,14 +176,11 @@ void lab5()
                 printf("%d ", x[i] );
             printf("\n");
     }
-
 void lab5add() 
     {
-        printf("Дополнительное задание к работе №5\n");
-        printf("");
-        // Реализация
+    printf("Дополнительное задание к работе №5 \n");
+    printf("Реализовать алгоритм сортировки для массива из 10 символов  \n");
     }
-
 void lab6() 
     {
         printf("Работа №6.Двумерные массивы \n");
@@ -260,9 +249,3 @@ void lab6()
             return;     
     }
 
-void lab6add()
-    {
-        printf("Дополнительное задание к работе №6\n");
-        printf("");
-        // Реализация
-    }
